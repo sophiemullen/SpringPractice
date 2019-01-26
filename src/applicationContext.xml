@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:property-placeholder location="classpath:sport.properties"></context:property-placeholder>
+
+    <bean id="myFortune"
+          class="springdemocoach.HappyFortuneService">
+    </bean>
+
+    <bean id="myCoach"
+          class="springdemocoach.YogaCoach">
+        <constructor-arg ref="myFortune"></constructor-arg>
+    </bean>
+
+    <bean id="cricketCoach"
+          class="springdemocoach.CricketCoach">
+        <property name="fortuneService" ref="myFortune"></property>
+        <property name="emailAddress" value="${file.email}"></property>
+        <property name="team" value="${file.team}"></property>
+    </bean>
+
+    <bean id="randomFortune"
+          class="springdemocoach.RandomFortuneService">
+    </bean>
+
+    <bean id="randomCoach"
+          class="springdemocoach.RandomCoach">
+        <constructor-arg ref="randomFortune"></constructor-arg>
+    </bean>
+
+
+    <!--id is an alias, used to retrieve a bean from the spring container-->
+    <!--class is the fully qualified class name of the implementation class (ie also includes package name)XL-->
+</beans>
+
+
+
+
+
