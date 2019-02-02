@@ -5,11 +5,11 @@
     http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="myFortune"
-          class="springdemocoach.HappyFortuneService">
+          class="xml.springdemocoach.HappyFortuneService">
     </bean>
 
     <bean id="myCoach"
-          class="springdemocoach.YogaCoach"
+          class="xml.springdemocoach.YogaCoach"
           scope="prototype">
         <constructor-arg ref="myFortune"></constructor-arg>
     </bean>

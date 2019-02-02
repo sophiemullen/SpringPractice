@@ -1,4 +1,4 @@
-package springdemocoach;
+package xml.springdemocoach;
 
 public class TrackCoach implements Coach {
 

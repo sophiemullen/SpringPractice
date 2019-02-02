@@ -7,30 +7,30 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:property-placeholder location="classpath:sport.properties"></context:property-placeholder>
+    <context:property-placeholder location="classpath:xml/sport.propertiesspringdemocoach/sport.properties"></context:property-placeholder>
 
     <bean id="myFortune"
-          class="springdemocoach.HappyFortuneService">
+          class="xml.springdemocoach.HappyFortuneService">
     </bean>
 
     <bean id="myCoach"
-          class="springdemocoach.YogaCoach">
+          class="xml.springdemocoach.YogaCoach">
         <constructor-arg ref="myFortune"></constructor-arg>
     </bean>
 
     <bean id="cricketCoach"
-          class="springdemocoach.CricketCoach">
+          class="xml.springdemocoach.CricketCoach">
         <property name="fortuneService" ref="myFortune"></property>
         <property name="emailAddress" value="${file.email}"></property>
         <property name="team" value="${file.team}"></property>
     </bean>
 
     <bean id="randomFortune"
-          class="springdemocoach.RandomFortuneService">
+          class="xml.springdemocoach.RandomFortuneService">
     </bean>
 
     <bean id="randomCoach"
-          class="springdemocoach.RandomCoach">
+          class="xml.springdemocoach.RandomCoach">
         <constructor-arg ref="randomFortune"></constructor-arg>
     </bean>
 
