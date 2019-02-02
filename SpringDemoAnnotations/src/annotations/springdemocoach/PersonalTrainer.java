@@ -11,6 +11,7 @@ public class PersonalTrainer implements Coach {
     @Autowired
     public PersonalTrainer(FortuneService fortuneService) {
         this.fortuneService = fortuneService;
+        System.out.println("Inside the default constructor: personal trainer");
     }
 
     @Override

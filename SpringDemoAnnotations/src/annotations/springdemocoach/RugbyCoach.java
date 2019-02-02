@@ -11,7 +11,7 @@ public class RugbyCoach implements Coach {
     private FortuneService fortuneService;
 
     public RugbyCoach() {
-        System.out.println("inside the default constructor");
+        System.out.println("Inside the default constructor: rugby");
     }
 
     @Autowired
