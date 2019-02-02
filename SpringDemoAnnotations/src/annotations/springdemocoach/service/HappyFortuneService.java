@@ -1,4 +1,4 @@
-package annotations.springdemocoach;
+package annotations.springdemocoach.service;
 
 import org.springframework.stereotype.Component;
 

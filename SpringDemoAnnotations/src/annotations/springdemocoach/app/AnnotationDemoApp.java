@@ -1,6 +1,6 @@
-package annotations.springdemocoach.apps;
+package annotations.springdemocoach.app;
 
-import annotations.springdemocoach.Coach;
+import annotations.springdemocoach.TennisCoach;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class AnnotationDemoApp {
@@ -8,10 +8,12 @@ public class AnnotationDemoApp {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("annotations/applicationContext.xml");
 
-        Coach tennisCoach = context.getBean("tennisCoach", Coach.class);
+        TennisCoach tennisCoach = context.getBean("tennisCoach", TennisCoach.class);
 
         System.out.println(tennisCoach.getDailyWorkout());
         System.out.println(tennisCoach.getDailyFortune());
+        System.out.println(tennisCoach.getEmailAddress());
+        System.out.println(tennisCoach.getTeam());
 
         context.close();
     }

@@ -9,6 +9,7 @@
 
     <!-- entry to enable component scanning -->
     <context:component-scan base-package="annotations"></context:component-scan>
+    <context:property-placeholder location="classpath:annotations/sport.properties"></context:property-placeholder>
 
 </beans>
 

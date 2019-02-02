@@ -1,4 +1,4 @@
-package annotations.springdemocoach;
+package annotations.springdemocoach.service;
 
 public interface FortuneService {
 
