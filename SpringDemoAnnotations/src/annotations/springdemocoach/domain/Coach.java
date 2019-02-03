@@ -1,4 +1,4 @@
-package annotations.springdemocoach;
+package annotations.springdemocoach.domain;
 
 public interface Coach {
 

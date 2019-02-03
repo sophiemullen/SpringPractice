@@ -1,6 +1,6 @@
 package annotations.springdemocoach.app;
 
-import annotations.springdemocoach.TennisCoach;
+import annotations.springdemocoach.domain.TennisCoach;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class AnnotationDemoApp {

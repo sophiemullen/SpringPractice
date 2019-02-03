@@ -1,4 +1,4 @@
-package annotations.springdemocoach;
+package annotations.springdemocoach.domain;
 
 import annotations.springdemocoach.service.FortuneService;
 import org.springframework.beans.factory.annotation.Autowired;
