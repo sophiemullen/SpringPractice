@@ -13,12 +13,6 @@ public class TennisCoach implements Coach {
     @Qualifier("randomFortuneService")
     private FortuneService fortuneService;
 
-    @Value("${file.email}")
-    private String emailAddress;
-
-    @Value("${file.team}")
-    private String team;
-
     public TennisCoach() {
         System.out.println("Inside the default constructor: tennisCoach");
     }
@@ -33,11 +27,4 @@ public class TennisCoach implements Coach {
         return fortuneService.getFortune();
     }
 
-    public String getEmailAddress() {
-        return emailAddress;
-    }
-
-    public String getTeam() {
-        return team;
-    }
 }

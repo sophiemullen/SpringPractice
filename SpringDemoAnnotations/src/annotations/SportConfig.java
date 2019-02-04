@@ -7,9 +7,11 @@ import annotations.springdemocoach.service.SadFortuneService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
 
 @Configuration
-@ComponentScan("annotations.springdemocoach")
+//@ComponentScan("annotations.springdemocoach") // not needed for swim demo app
+@PropertySource("classpath:annotations/sport.properties")
 public class SportConfig {
 
     @Bean
