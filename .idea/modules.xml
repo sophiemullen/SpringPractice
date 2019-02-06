@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringAnnotations.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringAnnotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringAnnotations.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringAnnotations.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringAnnotations.test.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringAnnotations.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCourse.iml" filepath="$PROJECT_DIR$/SpringCourse.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SpringDemoAnnotations/SpringDemoAnnotations.iml" filepath="$PROJECT_DIR$/SpringDemoAnnotations/SpringDemoAnnotations.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SpringDemoXML/SpringDemoXML.iml" filepath="$PROJECT_DIR$/SpringDemoXML/SpringDemoXML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringXML.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringXML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringXML.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringXML.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringXML.test.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringXML.test.iml" />
     </modules>
   </component>
 </project>
