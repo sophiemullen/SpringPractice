@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="SpringMVCDemo:main" external.linked.project.path="$MODULE_DIR$/../../SpringMVCDemo" external.root.project.path="$MODULE_DIR$/../../SpringMVCDemo" external.system.id="GRADLE" external.system.module.group="" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web Gradle : SpringMVCDemo-1.0-SNAPSHOT.war">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../../SpringMVCDemo/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://C:\Users\sophiem\IdeaProjects\SpringCourse\SpringMVCDemo\src\main\webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../SpringMVCDemo/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../SpringMVCDemo/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../SpringMVCDemo/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../SpringMVCDemo/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Gradle: org.springframework:spring-core:jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../SpringMVC/Could not find org.springframework:spring-core:jar.&#13;&#10;Searched in the following locations:&#13;&#10;  - https:/repo.maven.apache.org/maven2/org/springframework/spring-core/jar/spring-core-jar.pom&#13;&#10;  - https:/repo.maven.apache.org/maven2/org/springframework/spring-core/jar/spring-core-jar-5.1.0.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

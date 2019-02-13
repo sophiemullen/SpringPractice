@@ -15,10 +15,33 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/SpringMVC" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/SpringMVC" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/SpringMVCDemo" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/SpringMVCDemo" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/SpringXML" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/SpringXML" />
+            <option value="$PROJECT_DIR$/SpringXML/SpringMVC" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />

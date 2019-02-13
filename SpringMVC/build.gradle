@@ -1,0 +1,22 @@
+apply plugin: 'java'
+apply plugin: 'war'
+war {
+    baseName = 'SpringMVCExample'
+    version = '1.0.0-BUILD-SNAPSHOT'
+}
+
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.springframework:spring-core:5.1.4.RELEASE'
+    compile 'org.springframework:spring-context:5.1.4.RELEASE'
+    compile 'org.springframework:spring-webmvc:5.1.4.RELEASE'
+    compile 'org.springframework:spring-web:5.1.4.RELEASE'
+}

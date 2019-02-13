@@ -5,11 +5,11 @@
     http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="myFortune"
-          class="xml.springdemocoach.service.HappyFortuneService">
+          class="springdemocoach.service.HappyFortuneService">
     </bean>
 
     <bean id="myCoach"
-          class="xml.springdemocoach.domain.TrackCoach"
+          class="springdemocoach.domain.TrackCoach"
           init-method="doStartupStuff"
           destroy-method="doCleanupStuff">
         <constructor-arg ref="myFortune"></constructor-arg>

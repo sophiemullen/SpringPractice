@@ -10,27 +10,27 @@
     <context:property-placeholder location="classpath:sport.properties"></context:property-placeholder>
 
     <bean id="myFortune"
-          class="xml.springdemocoach.service.HappyFortuneService">
+          class="springdemocoach.service.HappyFortuneService">
     </bean>
 
     <bean id="myCoach"
-          class="xml.springdemocoach.domain.YogaCoach">
+          class="springdemocoach.domain.YogaCoach">
         <constructor-arg ref="myFortune"></constructor-arg>
     </bean>
 
     <bean id="cricketCoach"
-          class="xml.springdemocoach.domain.CricketCoach">
+          class="springdemocoach.domain.CricketCoach">
         <property name="fortuneService" ref="myFortune"></property>
         <property name="emailAddress" value="${file.email}"></property>
         <property name="team" value="${file.team}"></property>
     </bean>
 
     <bean id="randomFortune"
-          class="xml.springdemocoach.service.RandomFortuneService">
+          class="springdemocoach.service.RandomFortuneService">
     </bean>
 
     <bean id="randomCoach"
-          class="xml.springdemocoach.domain.RandomCoach">
+          class="springdemocoach.domain.RandomCoach">
         <constructor-arg ref="randomFortune"></constructor-arg>
     </bean>
 

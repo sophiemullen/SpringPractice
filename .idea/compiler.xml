@@ -4,7 +4,13 @@
     <bytecodeTargetLevel>
       <module name="SpringAnnotations.main" target="1.8" />
       <module name="SpringAnnotations.test" target="1.8" />
+      <module name="SpringMVC.main" target="1.8" />
+      <module name="SpringMVC.test" target="1.8" />
+      <module name="SpringMVCDemo.main" target="1.8" />
+      <module name="SpringMVCDemo.test" target="1.8" />
       <module name="SpringXML.main" target="1.8" />
+      <module name="SpringXML.SpringMVC.main" target="1.8" />
+      <module name="SpringXML.SpringMVC.test" target="1.8" />
       <module name="SpringXML.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>

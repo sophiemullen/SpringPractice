@@ -8,7 +8,7 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
 
     <!-- entry to enable component scanning -->
-    <context:component-scan base-package="annotations"></context:component-scan>
+    <context:component-scan base-package="springdemocoach"></context:component-scan>
     <context:property-placeholder location="classpath:sport.properties"></context:property-placeholder>
 
 </beans>
