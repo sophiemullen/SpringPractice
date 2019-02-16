@@ -24,7 +24,7 @@
     <orderEntry type="module-library">
       <library name="Gradle: org.springframework:spring-core:jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../SpringMVC/Could not find org.springframework:spring-core:jar.&#13;&#10;Searched in the following locations:&#13;&#10;  - https:/repo.maven.apache.org/maven2/org/springframework/spring-core/jar/spring-core-jar.pom&#13;&#10;  - https:/repo.maven.apache.org/maven2/org/springframework/spring-core/jar/spring-core-jar-5.1.0.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../SpringAnnotations/Could not find org.springframework:spring-core:jar.&#13;&#10;Searched in the following locations:&#13;&#10;  - https:/repo.maven.apache.org/maven2/org/springframework/spring-core/jar/spring-core-jar.pom&#13;&#10;  - https:/repo.maven.apache.org/maven2/org/springframework/spring-core/jar/spring-core-jar-5.1.0.RELEASE.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

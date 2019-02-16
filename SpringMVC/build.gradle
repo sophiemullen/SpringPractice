@@ -1,7 +1,7 @@
 apply plugin: 'java'
 apply plugin: 'war'
 war {
-    baseName = 'SpringMVCExample'
+    baseName = 'SpringMVC'
     version = '1.0.0-BUILD-SNAPSHOT'
 }
 

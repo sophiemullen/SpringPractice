@@ -8,8 +8,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringMVC.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringMVC.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringMVC.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringMVC.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringMVC.test.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringMVC.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringMVCDemo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringMVCDemo.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringMVCDemo.test.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringMVCDemo.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringXML.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringXML.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringMVC/SpringXML.SpringMVC.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringMVC/SpringXML.SpringMVC.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringXML.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringXML.main.iml" />
