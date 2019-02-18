@@ -3,6 +3,7 @@ package springdemocoach;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -23,6 +24,16 @@ public class HelloWorldController {
     public String nameToCaps(HttpServletRequest request, Model model) {
 
         String greeting = "Hey " + request.getParameter("studentName").toUpperCase();
+
+        model.addAttribute("message", greeting);
+
+        return "helloworld";
+    }
+
+    @RequestMapping("/processFormVersionThree")
+    public String processFormVersionThree(@RequestParam("studentName") String theName, Model model) {
+
+        String greeting = "Yo " + theName.toUpperCase();
 
         model.addAttribute("message", greeting);
 
