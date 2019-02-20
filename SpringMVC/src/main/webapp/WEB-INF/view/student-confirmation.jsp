@@ -6,5 +6,8 @@
 
 <body>
     The student name is ${student.firstName} ${student.lastName}
+<br><br>
+    The student is from ${student.country}
+
 </body>
 </html>
