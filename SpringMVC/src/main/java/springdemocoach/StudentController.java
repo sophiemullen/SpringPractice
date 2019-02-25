@@ -23,7 +23,7 @@ public class StudentController {
 
         model.addAttribute("student", student);
 
-        model.addAttribute("theCountryOptions", countryOptions);
+        model.addAttribute("theCountryOptions", countryOptions.values());
 
         return "student-form";
     }

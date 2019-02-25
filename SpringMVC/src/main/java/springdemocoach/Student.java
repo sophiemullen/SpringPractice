@@ -9,7 +9,8 @@ public class Student {
     private String firstName;
     private String lastName;
     private String country;
-//    private LinkedHashMap<String, String> countryOptions;
+    private String favouriteLanguage;
+    private LinkedHashMap<String, String> countryOptions;
 
     public Student() {
 //        countryOptions = new LinkedHashMap<>();
@@ -43,11 +44,19 @@ public class Student {
         this.country = country;
     }
 
-//    public LinkedHashMap<String, String> getCountryOptions() {
-//        return countryOptions;
-//    }
-//
-//    public void setCountryOptions(LinkedHashMap<String, String> countryOptions) {
-//        this.countryOptions = countryOptions;
-//    }
+    public String getFavouriteLanguage() {
+        return favouriteLanguage;
+    }
+
+    public void setFavouriteLanguage(String favouriteLanguage) {
+        this.favouriteLanguage = favouriteLanguage;
+    }
+
+        public LinkedHashMap<String, String> getCountryOptions() {
+        return countryOptions;
+    }
+
+    public void setCountryOptions(LinkedHashMap<String, String> countryOptions) {
+        this.countryOptions = countryOptions;
+    }
 }

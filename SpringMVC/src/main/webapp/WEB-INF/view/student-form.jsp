@@ -19,6 +19,11 @@
         <form:options items="${theCountryOptions}"></form:options>
     </form:select>
     <br><br>
+    Favourite Language:
+    Java <form:radiobutton path="favouriteLanguage" value="Java"></form:radiobutton>
+    Typescript <form:radiobutton path="favouriteLanguage" value="Typescript"></form:radiobutton>
+    Python <form:radiobutton path="favouriteLanguage" value="Python"></form:radiobutton>
+    <br><br>
     <input type="submit" value="submit">
 </form:form>
 </body>
