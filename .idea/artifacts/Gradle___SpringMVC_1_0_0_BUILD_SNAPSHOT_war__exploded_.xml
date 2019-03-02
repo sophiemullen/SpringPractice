@@ -25,6 +25,7 @@
           <element id="library" level="project" name="Gradle: org.springframework:spring-expression:5.1.4.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-core:5.1.4.RELEASE" />
           <element id="library" level="project" name="Gradle: javax.servlet:servlet-api:2.5" />
+          <element id="library" level="project" name="Gradle: javax.servlet:jstl:1.2" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-jcl:5.1.4.RELEASE" />
         </element>
       </element>

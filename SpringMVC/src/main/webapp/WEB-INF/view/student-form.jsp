@@ -24,6 +24,11 @@
     Typescript <form:radiobutton path="favouriteLanguage" value="Typescript"></form:radiobutton>
     Python <form:radiobutton path="favouriteLanguage" value="Python"></form:radiobutton>
     <br><br>
+ Operating Systems:
+    Linux <form:checkbox path="operatingSystems" value="Linux"></form:checkbox>
+    Mas OS <form:checkbox path="operatingSystems" value="Mac OS"></form:checkbox>
+    MS Windows <form:checkbox path="operatingSystems" value="MS Windows"></form:checkbox>
+    <br><br>
     <input type="submit" value="submit">
 </form:form>
 </body>

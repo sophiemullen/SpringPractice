@@ -1,7 +1,5 @@
 package springdemocoach;
 
-import org.springframework.beans.factory.annotation.Value;
-
 import java.util.LinkedHashMap;
 
 public class Student {
@@ -11,6 +9,7 @@ public class Student {
     private String country;
     private String favouriteLanguage;
     private LinkedHashMap<String, String> countryOptions;
+    private String[] operatingSystems;
 
     public Student() {
 //        countryOptions = new LinkedHashMap<>();
@@ -52,11 +51,19 @@ public class Student {
         this.favouriteLanguage = favouriteLanguage;
     }
 
-        public LinkedHashMap<String, String> getCountryOptions() {
+    public LinkedHashMap<String, String> getCountryOptions() {
         return countryOptions;
     }
 
     public void setCountryOptions(LinkedHashMap<String, String> countryOptions) {
         this.countryOptions = countryOptions;
+    }
+
+    public String[] getOperatingSystems() {
+        return operatingSystems;
+    }
+
+    public void setOperatingSystems(String[] operatingSystems) {
+        this.operatingSystems = operatingSystems;
     }
 }

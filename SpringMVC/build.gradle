@@ -20,5 +20,7 @@ dependencies {
     compile 'org.springframework:spring-webmvc:5.1.4.RELEASE'
     compile 'org.springframework:spring-web:5.1.4.RELEASE'
     compile 'javax.servlet:servlet-api:2.5'
+    compile 'javax.servlet:jstl:1.2'
+
 
 }
